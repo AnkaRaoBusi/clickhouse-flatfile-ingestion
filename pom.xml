@@ -21,4 +21,23 @@
         <artifactId>lombok</artifactId>
         <optional>true</optional>
     </dependency>
+    <!-- Add ClickHouse JDBC Driver -->
+<dependency>
+    <groupId>com.clickhouse</groupId>
+    <artifactId>clickhouse-jdbc</artifactId>
+    <version>0.4.6</version>
+</dependency>
+<!-- JWT -->
+<dependency>
+    <groupId>io.jsonwebtoken</groupId>
+    <artifactId>jjwt</artifactId>
+    <version>0.9.1</version>
+</dependency>
+<!-- Apache Commons CSV -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.10.0</version>
+</dependency>
+
 </dependencies>
